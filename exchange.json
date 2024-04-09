@@ -1,0 +1,10 @@
+{
+  "main": "mule-api-spec-lib-template.raml",
+  "name": "mule-api-spec-lib-template",
+  "classifier": "raml-fragment",
+  "apiVersion": "v1",
+  "descriptorVersion": "1.0.0",
+  "groupId": null,
+  "assetId": "mule-api-spec-lib-template",
+  "version": "1.0.0"
+}
