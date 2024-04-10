@@ -1,12 +1,8 @@
 #%RAML 1.0 Library
 usage:
 
-types:
-  resSchema: !include exchange_modules/120b39df-5a19-405a-8de8-6c3405f32711/respdatatype/1.0.0/respSchema.json
-  resDataType: !include exchange_modules/120b39df-5a19-405a-8de8-6c3405f32711/ramldatatype/1.0.0/ramldatatype.raml
-
 traits:
-  custHeader: !include exchange_modules/120b39df-5a19-405a-8de8-6c3405f32711/testramltrait/1.0.2/headerRamltrait.raml
+  custHeader: !include mule-trait.raml
 
 securitySchemes:
-  cusSecurity: !include mule-security-schema.raml
+  custSecurity: !include mule-security-schema.raml
